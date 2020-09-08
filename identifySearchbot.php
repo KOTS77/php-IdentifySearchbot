@@ -3,7 +3,7 @@
 /**
  * Identify Searchbots
  *
- * @author Thorsten Schneiders <thorsten.schneiders@gmail.com>
+ * @author KOTS77
  *
  */
 class IdentifySearchbot
@@ -60,10 +60,4 @@ class IdentifySearchbot
             return false;
         }
     }
-}
-
-if( IdentifySearchbot::isSearchbot() ) {
-    echo "isSearchbot: true";
-} else {
-    echo "isSearchbot: false";
 }
